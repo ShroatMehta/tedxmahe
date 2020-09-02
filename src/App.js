@@ -1,17 +1,12 @@
 import React from 'react';
 import './App.css';
+import { HomePage } from './pages/homepage.page';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>TEDxMahe Countdown</h1>
-        
-        <p>
-          Work in Progress
-        </p>
-        
-      </header>
+      <HomePage/>
+      
     </div>
   );
 }

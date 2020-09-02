@@ -1,0 +1,51 @@
+.sidebar-container{
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    width: 20%;
+    background-color: #F1FF39;
+    height: 100%;
+    
+    .content{
+        font-size: 20px;
+        position: absolute;
+        display: block;
+        flex-direction: column;
+        top:30%;
+        left:20%;
+
+        .nav-item:hover{
+            color: #F1FF39 ;
+            cursor: pointer;
+            background-color: black;
+
+        }
+    }
+
+}
+@media screen and (max-width: 768px) {
+
+    .sidebar-container{
+        position: fixed;
+        width: 100%;
+        height: 50px;
+        background-color: #F1FF39;
+        
+        .content{
+            font-size: 15px;
+            display: flex;
+            flex-direction: row;
+            position: initial;
+            justify-content: space-evenly;
+            
+            
+        }
+
+}
+    
+}
+  
+ 
+
+
+
