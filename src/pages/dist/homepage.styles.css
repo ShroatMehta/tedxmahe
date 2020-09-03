@@ -1,0 +1,38 @@
+.info {
+  position: absolute;
+  width: 80%;
+  left: 10%;
+  height: auto;
+  float: right;
+}
+.info .gif {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-content: center;
+}
+.info .gif .uptext {
+  padding-top: 100px;
+  color: whitesmoke;
+  font-size: 3vw;
+  text-align: center;
+}
+.info .gif .countdown-logo {
+  -webkit-transition: filter 5s;
+  filter: brightness(1.2);
+  -webkit-filter: hue-rotate(0deg);
+  image-rendering: pixelated;
+  max-width: 100%;
+  height: auto;
+}
+.info .gif .countdown-logo:hover {
+  cursor: pointer;
+  -webkit-filter: hue-rotate(360deg);
+}
+
+@media screen and (max-width: 768px) {
+  .info {
+    float: left;
+    width: 100%;
+  }
+}
