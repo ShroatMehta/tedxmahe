@@ -1,13 +1,13 @@
 import React from "react";
-import { Sidebar } from "../components/sidebar/sidebar.component";
+import Sidebar  from "../components/sidebar/sidebar.component.jsx";
 import {Gif} from '../utils/Countdown_Logo.gif';
 import  "./homepage.styles.scss";
-import {Tedx} from "../utils/light_tedx_small.png"
+import "../components/sidebar/sidebar.styles.scss"
 
 export const HomePage = () => (
   <div className="homepage">
     <Sidebar />
-    <img className = "tedx-logo" src = {require('../utils/light_tedx_small.png')}/>
+    
     <section className = "info">
       <div className = 'gif'>
             <h1 className = "uptext">WE CAN CHANGE CLIMATE CHANGE.</h1>
