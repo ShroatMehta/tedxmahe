@@ -1,15 +1,51 @@
+.tedx-logo{
+    position: absolute;
+    right:20px;
+    width: 300px;
+    height: auto;
+    
+}
+.photos{
+    
+    width: 85%;
+    float: right;
+   
+    display: flex;
+    justify-content: center;
+    img{
+        width: 25%;
+        display:flex;
+    }
+    
+}
 
+.about{
+    position: relative;
+    height: auto;
+    color: white;
+    font-size: 1.3vw;
+    text-align: center;
+    padding: 2vw;
+    float: right;
+    width: 80%;
+    padding-left: 50;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+}
 .info{
     position: relative;
-    width: 80%;
-    height: auto;
+    width: 85%;
     float: right;
+
     .gif
     {
         display: flex;
         flex-direction: column;
         align-self: center;
         justify-content: center;
+       
         
         .uptext{
             padding-top: 100px;
@@ -17,6 +53,27 @@
             font-size: 3vw;
             text-align: center;
         }
+        .date{
+            color: whitesmoke;
+            text-align: center;
+            font-size: 2vw;
+            
+        }
+        .hashtag{
+            color: whitesmoke;
+            text-align: center;
+            font-size: 2vw;
+            width: 400px;
+            margin: auto;
+            &:hover{
+                color: black;
+                background-color: #F1FF39;
+                cursor: pointer;
+
+            }
+            
+        }
+        
 
         .countdown-logo{
             &:hover{
@@ -38,7 +95,51 @@
 
 @media screen and (max-width:768px){
     .info{
+        
+        width: 100%;
+        margin: auto;
+        .gif{
+
+            .uptext{
+                font-size: 15px;
+            }
+            .date{
+                font-size: 20px;
+            }
+            .hashtag{
+                font-size: 20px;
+                width: 200px;
+            }
+        }
+    }
+    .tedx-logo{
+        width: 200px;
+        top:30px;
+        left:30px;
+        margin: auto;
+       
+        
+    }
+    .about{
+        
         float: left;
         width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: large;
     }
+    .photos{
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding-top: 1vw;
+        img{
+            width: 100%;
+        }
+    }
+
 }
+
+
