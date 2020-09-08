@@ -30,10 +30,10 @@ var TEAM = [{
   position: "Video and Production"
 }, {
   id: 5,
-  name: "Akhil",
+  name: "Akhilesh",
   photo: "https://i.ibb.co/bP0s83H/Head-Akhilesh-Manikandan.jpg",
-  link: "",
-  position: ""
+  link: "https://www.linkedin.com/in/akhilesh-manikandan-94596b17a",
+  position: "Executive Producer"
 }, {
   id: 6,
   name: "Raveena",
@@ -51,7 +51,7 @@ var TEAM = [{
   name: "Soumodeep",
   photo: "https://i.ibb.co/m93g2H7/Head-Soumodeep-Sarkar.jpg",
   link: "https://www.linkedin.com/in/soumodeep-sarkar-919766191/",
-  position: ""
+  position: "Curator"
 }, {
   id: 9,
   name: "Varsha",
@@ -88,12 +88,6 @@ var TEAM = [{
   photo: "https://i.ibb.co/Ch1GZtm/Vice-Head-Piyush-Panda.jpg",
   link: "https://www.linkedin.com/in/piyush-panda-376055179",
   position: "Editorial Director"
-}, {
-  id: 15,
-  name: "",
-  photo: "http://lorempixel.com/output/people-h-g-640-672-6.jpg",
-  link: "",
-  position: ""
 }, {
   id: 16,
   name: "Name",
