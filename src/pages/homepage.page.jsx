@@ -4,18 +4,19 @@ import {Gif} from '../utils/Countdown_Logo.gif';
 import  "./homepage.styles.scss";
 import "../components/sidebar/sidebar.styles.scss"
 
-export const HomePage = () => (
+export const HomePage = ({history}) => (
   <div className="homepage">
-    <Sidebar />
-    
+   
+    <img className = "tedx-logo" src = {require('../utils/light_tedx_small.png')} alt = "ls"/>
     <section className = "info">
       <div className = 'gif'>
             <h1 className = "uptext">WE CAN CHANGE CLIMATE CHANGE.</h1>
             <img className = "countdown-logo" src  ={require('../utils/Countdown_Logo.gif')}   alt = "sf" />
             <h1 className = "date">10th to 18th October</h1>
             <span className = "hashtag">#JoinTheCountdown</span>
-  
+
       </div>
+
     </section>
     <section className = "about">
       <h1>ABOUT</h1>
