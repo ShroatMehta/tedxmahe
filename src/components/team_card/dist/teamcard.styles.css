@@ -1,47 +1,36 @@
-.card-container{
-  .image-container {
+.card-container .image-container {
   background-color: white;
   border: 1px solid grey;
   width: 150px;
   height: 150px;
   border-radius: 50%;
   padding: 25px;
-  margin:auto;
-  
+  margin: auto;
   cursor: pointer;
   -moz-osx-font-smoothing: grayscale;
   backface-visibility: hidden;
   transform: translateZ(0);
   transition: transform 0.25s ease-out;
-  &:hover{
-    opacity: .8;
-    .linkedin{
-      visibility: visible;
-    }
-
-  }
-  .linkedin{
-    width: 100%;
-    padding-top: 30px;
-    color: #0f83b9;
-    visibility: hidden;
-    
-  }
-  
-  
 }
-.name {
+.card-container .image-container:hover {
+  opacity: 0.8;
+}
+.card-container .image-container:hover .linkedin {
+  visibility: visible;
+}
+.card-container .image-container .linkedin {
+  width: 100%;
+  padding-top: 30px;
+  color: #0f83b9;
+  visibility: hidden;
+}
+.card-container .name {
   color: white;
   font-size: 30px;
 }
-.position{
+.card-container .position {
   color: white;
   letter-spacing: 3px;
   text-transform: uppercase;
   font-size: 18px;
-  
-};
 }
-
-
-

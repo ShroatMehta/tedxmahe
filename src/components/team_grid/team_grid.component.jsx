@@ -7,7 +7,7 @@ import TEAM from '../../utils/team.utils'
 
 export const TeamGrid = ()=>(
     <div className = "card-list">
-        {TEAM.map((team)=>(<TeamCard id = {team.id} name = {team.name} photo = {team.photo} link = {team.link}/>))}
+        {TEAM.map((team)=>(<TeamCard id = {team.id} name = {team.name} photo = {team.photo} link = {team.link} position = {team.position}/>))}
     </div>
 )
 
