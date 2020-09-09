@@ -4,8 +4,8 @@ export const Register = ()=>(
     <div className = "register">
         
 
-        <a href ="#" className="btn btn--stripe btn--radius">Register as Team</a>
-        <a href="#" className="btn btn--stripe btn--radius">Register as Individual</a>
+        <a href ="#" className="btn btn--stripe btn--radius">Register for projects</a>
+        <a href="#" className="btn btn--stripe btn--radius">Register as an attendee</a>
         
         
 

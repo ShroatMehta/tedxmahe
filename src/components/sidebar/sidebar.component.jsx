@@ -12,7 +12,7 @@ export const Sidebar = (history,match) =>(
             <Link className = 'link' to = '/team'>
             <h1 className ="nav-item">Team</h1>
             </Link>
-            <h1 className ="nav-item">contact</h1>
+            <h1 className ="nav-item">Contact</h1>
             <Link className = 'link' to = '/register'>
             <h1 className ="nav-item">Register</h1>
             </Link>
