@@ -5,13 +5,17 @@ export const Sidebar = (history,match) =>(
     
     <aside className = "sidebar-container">
         <div className = 'content'>
+            <Link className = 'link' to = '/'>
             <h1 className ="nav-item">Home</h1>
+            </Link>
             <h1 className ="nav-item">About</h1>
             <Link className = 'link' to = '/team'>
             <h1 className ="nav-item">Team</h1>
             </Link>
-            <h1 className ="nav-item">contact</h1>
-            <h1 className ="nav-item last">Register</h1>
+            <h1 className ="nav-item">Contact</h1>
+            <Link className = 'link' to = '/register'>
+            <h1 className ="nav-item">Register</h1>
+            </Link>
         </div>
     </aside>
 )
