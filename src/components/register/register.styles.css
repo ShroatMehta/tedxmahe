@@ -1,0 +1,44 @@
+.register{
+    position: relative;
+    width: 85%;
+    float:right ;
+
+    
+}
+.heading{
+    color: whitesmoke;
+            font-size: 3em;
+            width: 500px;
+            margin: 60px;
+            margin-left: 30%;
+            
+}
+.button{
+    background-color: yellow;
+    color: #000000 ;
+    font-size: 3em; 
+    text-decoration: none;
+    display: flex;   
+    width: 400px;
+    padding: 8px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 70px;
+
+}
+
+@media screen and (max-width:768px){
+    .heading{
+        width: 100%;
+        margin: 50px;
+        font-size: 2em;
+        padding-top: 20px;
+
+    }
+    .button{
+        width: 100%;
+        margin: 10px;
+        font-size: 2em;
+    }
+}
