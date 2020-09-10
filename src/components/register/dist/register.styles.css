@@ -71,9 +71,6 @@
   border-top: 1px solid #000;
   animation: stripe-slide 12s infinite linear forwards;
 }
-.btn--large {
-  width: 50%;
-}
 .btn--radius {
   border-radius: 36px;
 }

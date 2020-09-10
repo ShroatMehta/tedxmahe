@@ -3,7 +3,7 @@ const TEAM = [
         id:1,
         name:"Manan",
         photo:"https://i.ibb.co/KGYNtZh/IMG-3518.jpg",
-        link:"",
+        link:"https://www.linkedin.com/in/mananshah112/",
         position:"Organiser and Licensee"
     },
     {
@@ -68,7 +68,7 @@ const TEAM = [
         id:10,
         name:"Utkarsh",
         photo:"https://i.ibb.co/P9wvTQb/Vice-Head-Utkarsh-Bajaj.jpg",
-        link:"",
+        link:"https://www.linkedin.com/in/utkarsh-bajaj-23bb82125/",
         position:"Designer"
     },
     {
@@ -100,41 +100,7 @@ const TEAM = [
         position:"Editorial Director"
     },
     
-    {
-        id:16,
-        name:"Name",
-        photo:"http://lorempixel.com/output/people-h-g-640-672-6.jpg",
-        link:"",
-        position:""
-    },
-    {
-        id:17,
-        name:"Name",
-        photo:"http://lorempixel.com/output/people-h-g-640-672-6.jpg",
-        link:"",
-        position:""
-    },
-    {
-        id:18,
-        name:"Name",
-        photo:"http://lorempixel.com/output/people-h-g-640-672-6.jpg",
-        link:"",
-        position:""
-    },
-    {
-        id:19,
-        name:"Name",
-        photo:"http://lorempixel.com/output/people-h-g-640-672-6.jpg",
-        link:"",
-        position:""
-    },
-    {
-        id:20,
-        name:"Name",
-        photo:"http://lorempixel.com/output/people-h-g-640-672-6.jpg",
-        link:"",
-        position:""
-    },
+    
 
     
 ]

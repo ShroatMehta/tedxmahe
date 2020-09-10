@@ -6,10 +6,50 @@
     grid-gap:20px;
     padding-right: 15vw;
 }
+.card-list-2{
+    max-width:85vw;
+    margin: 0  auto;
+    display:grid;
+    grid-template-columns: 1fr 1fr  ;
+    grid-gap:20px;
+    padding-right: 15vw;
+}
+
+.title{
+    color: white;
+    width: 75%;
+    text-align: center;
+    font-size: 60px;
+}
+
+@media screen and (max-width:768px){
+
+    .title{
+        width: 100%;
+        padding-top: 60px;
+        font-size: 2em;
+        
+    }
+    
+    
+}
 
 @media screen and (max-width:768px){
     
     .card-list{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-left: 4em;
+        
+
+        
+        
+        
+
+        
+    }
+    .card-list-2{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
