@@ -5,6 +5,7 @@ import Sidebar from './components/sidebar/sidebar.component';
 import { Route, Link, Switch, BrowserRouter as Router } from "react-router-dom";
 import TeamPage from './pages/team_page/teampage.page';
 import RegisterPage from './pages/register/registerpage.page';
+import ProjectsPage from './pages/projects_page/projectspage.page';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path = "/" exact component = {HomePage}/>
           <Route path = "/team" exact component = {TeamPage}/>
           <Route path = "/register" exact component = {RegisterPage}/>
+          <Route path = "/projects" exact component = {ProjectsPage}/>
         </Switch>
       </Router>
     </div>

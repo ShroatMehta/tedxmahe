@@ -11,4 +11,4 @@ export const TeamGrid = ()=>(
     </div>
 )
 
-export default TeamGrid;
+export default TeamGrid; 

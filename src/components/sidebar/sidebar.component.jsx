@@ -10,9 +10,11 @@ export const Sidebar = (history,match) =>(
             </Link>
             <h1 className ="nav-item">About</h1>
             <Link className = 'link' to = '/team'>
+            <Link className = 'link' to = '/projects'>
+            <h1 className ="nav-item">Projects</h1>
+            </Link>
             <h1 className ="nav-item">Team</h1>
             </Link>
-            <h1 className ="nav-item">Contact</h1>
             <Link className = 'link' to = '/register'>
             <h1 className ="nav-item">Register</h1>
             </Link>

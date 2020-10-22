@@ -1,0 +1,23 @@
+.project-page {
+  width: 75%;
+  float: right;
+}
+
+.title {
+  color: white;
+  width: 75%;
+  text-align: center;
+  font-size: 60px;
+}
+
+@media screen and (max-width: 768px) {
+  .title {
+    width: 100%;
+    padding-top: 60px;
+    font-size: 2em;
+  }
+
+  .project-page {
+    width: 100%;
+  }
+}

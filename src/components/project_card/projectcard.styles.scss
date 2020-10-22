@@ -1,0 +1,44 @@
+.project-container{
+  .image-container {
+  background-color: white;
+  padding: 25px;
+  margin:auto ;
+  max-width: 350px;
+  height: 200px;
+  display: block;
+
+  
+  cursor: pointer;
+  -moz-osx-font-smoothing: grayscale;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  transition: transform 0.25s ease-out;
+  &:hover{
+    opacity: .8;
+    .linkedin{
+      visibility: visible;
+    }
+
+  }
+
+  
+}
+.name {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  
+}
+.position{
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  text-transform: none;
+  letter-spacing: 1px;
+  
+};
+}
+
+
+
