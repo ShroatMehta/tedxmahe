@@ -9,7 +9,13 @@ export const ProjectCard = ({name,photo,link,position})=>(
         {
             backgroundImage:`url(${photo})`,
             backgroundPosition:'center',
-            backgroundSize:'cover'
+            backgroundRepeat:'no-repeat',
+            backgroundSize:'contain',
+            height:'180px',
+            
+    
+
+
         }  
     }>
        </div> 
